@@ -1,0 +1,181 @@
+Student ID,Name,Gender,Age,GPA,Major,Interested Domain,Projects,Future Career,Python,SQL,Java
+1,John Smith,Male,21,3.5,Computer Science,Artificial Intelligence,Chatbot Development; Computer Vision; 3D Modeling,Machine Learning Researcher,Strong,Strong,Weak
+2,Alice Johnson,Female,20,3.2,Computer Science,Data Science,Data Analytics; Machine Learning; Deep Learning Models,Data Scientist,Average,Strong,Weak
+3,Robert Davis,Male,22,3.8,Computer Science,Software Development,E-commerce Website; Mobile App Development; Chatbot Development,Software Engineer,Strong,Strong,Average
+4,Emily Wilson,Female,21,3.7,Computer Science,Web Development,Full-Stack Web App; E-commerce Website; Quantum Algorithm Development,Web Developer,Weak,Strong,Strong
+5,Michael Brown,Male,23,3.4,Computer Science,Cybersecurity,Network Security; Penetration Testing; Mobile App Development,Information Security Analyst,Average,Weak,Strong
+6,Laura Lee,Female,22,3.9,Computer Science,Machine Learning,Image Recognition; Natural Language Processing; 3D Rendering,Machine Learning Engineer,Strong,Average,Weak
+7,William Johnson,Male,20,3.6,Computer Science,Database Management,SQL Query Optimization; Data Warehouse Design; Android App Development,Database Administrator,Average,Strong,Weak
+8,Sarah Miller,Female,21,3.7,Computer Science,Cloud Computing,AWS Deployment; Cloud Migration Specialist; Deep Learning Models,Cloud Solutions Architect,Weak,Strong,Average
+9,James Wilson,Male,23,3.3,Computer Science,Mobile App Development,Android App; iOS App Development; Object Detection,Mobile App Developer,Average,Weak,Strong
+10,Olivia Clark,Female,22,3.5,Computer Science,Computer Graphics,3D Rendering; 3D Animation; Natural Language Processing,Graphics Programmer,Weak,Average,Strong
+11,Andrew Hall,Male,21,3.8,Computer Science,Artificial Intelligence,Natural Language Processing; Computer Vision; SQL Query Optimization,NLP Research Scientist,Strong,Average,Weak
+12,David Jones,Male,22,3.7,Computer Science,Web Development,Full-Stack Web App; Front-End Development; Cross-Platform App Development,Web Developer,Strong,Strong,Average
+13,Elizabeth Williams,Female,21,3.3,Computer Science,Mobile App Development,iOS App; Cross-Platform App Development; Neural Network Development,Mobile App Developer,Average,Weak,Strong
+14,Charles Miller,Male,23,3.5,Computer Science,Computer Graphics,Game Development; 3D Rendering; Smart Home Automation,Game Developer,Weak,Average,Strong
+15,Susan Davis,Female,22,3.8,Computer Science,Software Engineering,E-commerce Website; DevOps; SQL Query Optimization,Software Engineer,Strong,Strong,Average
+16,John Brown,Male,20,3.6,Computer Science,Cybersecurity,Network Security; Penetration Testing; Quantum Algorithm Development,Information Security Analyst,Average,Weak,Strong
+17,Laura Lee,Female,21,3.9,Computer Science,Machine Learning,Image Recognition; Natural Language Processing; Enterprise Software Development,Machine Learning Engineer,Strong,Average,Weak
+18,William Johnson,Male,23,3.6,Computer Science,Database Management,SQL Query Optimization; SQL Database Administration; Cloud Infrastructure Management,Database Administrator,Average,Strong,Weak
+19,Sarah Miller,Female,22,3.7,Computer Science,Cloud Computing,AWS Deployment; Cloud Migration Specialist; Security Auditing,Cloud Solutions Architect,Weak,Strong,Average
+20,James Wilson,Male,20,3.3,Computer Science,Mobile App Development,Android App; Cross-Platform App Development; Cloud Infrastructure Management,Mobile App Developer,Average,Weak,Strong
+21,Olivia Clark,Female,21,3.5,Computer Science,Computer Graphics,3D Rendering; 3D Animation; GCP Deployment,Graphics Programmer,Weak,Average,Strong
+22,Andrew Hall,Male,23,3.8,Computer Science,Artificial Intelligence,Natural Language Processing; Chatbot Development; Firewall Management,NLP Research Scientist,Strong,Average,Weak
+23,David Jones,Male,22,3.7,Computer Science,Web Development,Full-Stack Web App; Front-End Development; Neural Network Development,Web Developer,Strong,Strong,Average
+24,Elizabeth Williams,Female,21,3.3,Computer Science,Mobile App Development,iOS App; Android Game; Smart Home Automation,Mobile App Developer,Average,Weak,Strong
+25,Charles Miller,Male,23,3.5,Computer Science,Computer Graphics,Game Development; 3D Animation; SQL Database Design,Game Developer,Weak,Average,Strong
+26,Susan Davis,Female,22,3.8,Computer Science,Software Engineering,E-commerce Website; Enterprise Software Development; Mobile App Development,Software Engineer,Strong,Strong,Average
+27,John Brown,Male,20,3.6,Computer Science,Cybersecurity,Network Security; Penetration Testing; iOS App,Information Security Analyst,Average,Weak,Strong
+28,Laura Lee,Female,21,3.9,Computer Science,Machine Learning,Image Recognition; Natural Language Processing; Android App Development,Machine Learning Engineer,Strong,Average,Weak
+29,William Johnson,Male,23,3.6,Computer Science,Database Management,SQL Query Optimization; SQL Database Design; DevOps,Database Administrator,Average,Strong,Weak
+30,Sarah Miller,Female,22,3.7,Computer Science,Cloud Computing,AWS Deployment; Cloud Solution Architecture; Neural Network Development,Cloud Solutions Architect,Weak,Strong,Average
+31,James Wilson,Male,20,3.3,Computer Science,Mobile App Development,Android App; Android Game; SQL Database Administration,Mobile App Developer,Average,Weak,Strong
+32,Olivia Clark,Female,21,3.5,Computer Science,Computer Graphics,3D Rendering; 3D Animation; Android App Development,Graphics Programmer,Weak,Average,Strong
+33,Andrew Hall,Male,23,3.8,Computer Science,Artificial Intelligence,Natural Language Processing; Computer Vision; Smart Home Automation,NLP Research Scientist,Strong,Average,Weak
+34,David Jones,Male,22,3.7,Computer Science,Web Development,Full-Stack Web App; Front-End Development; Android App Development,Web Developer,Strong,Strong,Average
+35,Elizabeth Williams,Female,21,3.3,Computer Science,Mobile App Development,iOS App; Android App Development; User Experience Researcher,Mobile App Developer,Average,Weak,Strong
+36,Charles Miller,Male,23,3.5,Computer Science,Computer Graphics,Game Development; 3D Animation; GCP Deployment,Game Developer,Weak,Average,Strong
+37,Susan Davis,Female,22,3.8,Computer Science,Software Engineering,E-commerce Website; Enterprise Software Development; Image Classification,Software Engineer,Strong,Strong,Average
+38,John Brown,Male,20,3.6,Computer Science,Cybersecurity,Network Security; Security Auditing; Cloud Migration Specialist,Information Security Analyst,Average,Weak,Strong
+39,Laura Lee,Female,21,3.9,Computer Science,Machine Learning,Image Recognition; Image Classification; Firewall Management,Machine Learning Engineer,Strong,Average,Weak
+40,Jessica Jones,Female,22,3.6,Computer Science,Cloud Computing,GCP Deployment; Cloud Infrastructure Management; Reinforcement Learning,Cloud Solutions Architect,Strong,Strong,Average
+41,Peter Parker,Male,20,3.3,Computer Science,Software Development,Social Media Platform; Mobile App Development; Reinforcement Learning,Software Engineer,Average,Weak,Strong
+42,Mary Jane Watson,Female,21,3.7,Computer Science,Web Development,E-commerce Website; Front-End Development; Neural Network Development,Web Developer,Weak,Strong,Strong
+43,Harry Osborn,Male,23,3.5,Computer Science,Mobile App Development,iOS Game; iOS App Development; Computer Vision,Mobile App Developer,Average,Weak,Strong
+44,Gwen Stacy,Female,22,3.8,Computer Science,Computer Graphics,3D Animation; 3D Rendering; Computer Vision,Graphics Programmer,Weak,Average,Strong
+45,Eddie Brock,Male,21,3.6,Computer Science,Artificial Intelligence,Natural Language Processing; Reinforcement Learning; Full-Stack Web App,NLP Research Scientist,Strong,Average,Weak
+46,Michelle Williams,Female,20,3.3,Computer Science,Data Science,Machine Learning; Data Mining; iOS Game,Data Scientist,Average,Strong,Weak
+47,Flash Thompson,Male,22,3.7,Computer Science,Cybersecurity,Network Security; Penetration Testing; Protein Structure Prediction,Information Security Analyst,Weak,Strong,Average
+48,Liz Allan,Female,21,3.5,Computer Science,Database Management,SQL Query Optimization; SQL Database Administration; Statistical Analysis,Database Administrator,Average,Weak,Strong
+49,Jason Macendale,Male,23,3.8,Computer Science,Cloud Computing,AWS Deployment; Cloud Infrastructure Management; Deep Learning Models,Cloud Solutions Architect,Strong,Strong,Average
+50,Fred Myers,Male,22,3.6,Computer Science,Software Development,Social Media Platform; E-commerce Website; Smart Contracts Developer,Software Engineer,Average,Weak,Strong
+51,Betty Brant,Female,21,3.7,Computer Science,Web Development,E-commerce Website; Full-Stack Web App; GIS Mapping,Web Developer,Weak,Strong,Strong
+52,Ned Leeds,Male,20,3.3,Computer Science,Mobile App Development,Android Game; Cross-Platform App Development; Big Data Analytics,Mobile App Developer,Average,Weak,Strong
+53,Silver Sable,Female,22,3.8,Computer Science,Computer Graphics,3D Modeling; 3D Rendering; iOS App Development,Graphics Programmer,Weak,Average,Strong
+54,Black Cat,Female,21,3.6,Computer Science,Artificial Intelligence,Natural Language Processing; Robotics; iOS App,NLP Research Scientist,Strong,Average,Weak
+55,Venom,Male,20,3.3,Computer Science,Data Science,Machine Learning; Data Mining; Cross-Platform App Development,Data Scientist,Average,Strong,Weak
+56,Carnage,Male,22,3.7,Computer Science,Cybersecurity,Network Security; Security Auditing; Front-End Development,Information Security Analyst,Weak,Strong,Average
+57,Lizard,Male,21,3.5,Computer Science,Database Management,SQL Query Optimization; SQL Database Design; Genomic Data Analysis,Database Administrator,Average,Weak,Strong
+58,Electro,Male,23,3.8,Computer Science,Cloud Computing,AWS Deployment; Cloud Migration Specialist; Distributed Systems Architect,Cloud Solutions Architect,Strong,Strong,Average
+59,Sandman,Male,22,3.6,Computer Science,Software Development,Social Media Platform; Embedded Systems; Data Analytics,Software Engineer,Average,Weak,Strong
+60,Mysterio,Male,20,3.3,Computer Science,Web Development,E-commerce Website; Full-Stack Web App; SQL Database Design,Web Developer,Weak,Strong,Strong
+61,Rhino,Male,21,3.7,Computer Science,Mobile App Development,Android Game; iOS App Development; Healthcare Data Analyst,Mobile App Developer,Average,Weak,Strong
+62,Scorpion,Male,22,3.5,Computer Science,Computer Graphics,3D Animation; Virtual Reality Development; Full-Stack Web App,Graphics Programmer,Weak,Average,Strong
+63,Vulture,Male,23,3.8,Computer Science,Artificial Intelligence,Natural Language Processing; Computer Vision; Cloud Infrastructure Management,NLP Research Scientist,Strong,Average,Weak
+64,Shocker,Male,20,3.3,Computer Science,Data Science,Machine Learning; Statistical Analysis; Android App Development,Data Scientist,Average,Strong,Weak
+65,Kraven the Hunter,Male,22,3.7,Computer Science,Cybersecurity,Network Security; Penetration Testing; Usability Testing,Information Security Analyst,Weak,Strong,Average
+66,Green Goblin,Male,21,3.5,Computer Science,Database Management,SQL Query Optimization; Data Warehouse Design; Cloud Infrastructure Management,Database Administrator,Average,Weak,Strong
+67,Doctor Octopus,Male,23,3.8,Computer Science,Cloud Computing,AWS Deployment; Cloud Migration Specialist; Smart Home Automation,Cloud Solutions Architect,Strong,Strong,Average
+68,Morbius,Male,22,3.6,Computer Science,Software Development,Social Media Platform; Web Application Development; Neural Network Development,Software Engineer,Average,Weak,Strong
+69,Lizard,Male,20,3.3,Computer Science,Web Development,E-commerce Website; Front-End Development; GCP Deployment,Web Developer,Weak,Strong,Strong
+70,Hydro-Man,Male,21,3.7,Computer Science,Mobile App Development,Android Game; iOS App; Object Detection,Mobile App Developer,Average,Weak,Strong
+71,Kingpin,Male,22,3.5,Computer Science,Computer Graphics,3D Animation; Virtual Reality Development; Mobile App Development,Graphics Programmer,Weak,Average,Strong
+72,Taskmaster,Male,23,3.8,Computer Science,Artificial Intelligence,Natural Language Processing; Neural Network Development; Mobile App Development,NLP Research Scientist,Strong,Average,Weak
+73,MODOK,Male,20,3.3,Computer Science,Data Science,Machine Learning; Big Data Analytics; Reinforcement Learning,Data Scientist,Average,Strong,Weak
+74,AIM,Male,22,3.7,Computer Science,Cybersecurity,Network Security; Penetration Testing; Protein Structure Prediction,Information Security Analyst,Weak,Strong,Average
+75,Hydra,Male,21,3.5,Computer Science,Database Management,SQL Query Optimization; SQL Database Design; Search Engine Optimization,Database Administrator,Average,Weak,Strong
+76,AIM,Female,22,3.7,Computer Science,Cybersecurity,Network Security; Security Auditing; SQL Query Optimization,Information Security Analyst,Weak,Strong,Average
+77,Agent Coulson,Male,35,3.9,Computer Science,Cloud Computing,AWS Deployment; Cloud Solution Architecture; Chatbot Development,Cloud Solutions Architect,Strong,Strong,Average
+78,Agent Hill,Female,33,3.8,Computer Science,Cybersecurity,Network Security; Security Auditing; GCP Deployment,Information Security Analyst,Weak,Strong,Average
+79,Agent Melinda May,Female,37,3.7,Computer Science,Database Management,SQL Query Optimization; Data Warehouse Design; Genomic Data Analysis,Database Administrator,Average,Weak,Strong
+80,Agent Daisy Johnson,Female,29,3.6,Computer Science,Mobile App Development,Android Game; Android App; SQL Database Design,Mobile App Developer,Strong,Average,Strong
+81,Agent Simmons,Female,31,3.5,Computer Science,Web Development,E-commerce Website; Full-Stack Web App; Market Analysis,Web Developer,Weak,Strong,Strong
+82,Agent Fitz,Male,35,3.9,Computer Science,Software Development,Social Media Platform; Embedded Systems; Machine Learning,Software Engineer,Average,Weak,Strong
+83,Agent Mack,Male,37,3.8,Computer Science,Computer Graphics,3D Animation; 3D Modeling; User Experience Researcher,Graphics Programmer,Weak,Average,Strong
+84,Agent Bobbi Morse,Female,29,3.7,Computer Science,Artificial Intelligence,Natural Language Processing; Neural Network Development; User Experience Researcher,NLP Research Scientist,Strong,Average,Weak
+85,Agent Lance Hunter,Male,33,3.6,Computer Science,Data Science,Machine Learning; Data Analytics; Cloud Migration Specialist,Data Scientist,Average,Strong,Weak
+86,Oliver Davis,Male,22,3.7,Computer Science,Network Security,Firewall Management; Robotics,Security Analyst,Strong,Average,Weak
+87,Ava Miller,Female,21,3.6,Computer Science,Machine Learning,Deep Learning Models; Image Classification; Mobile Game Development,Machine Learning Engineer,Strong,Average,Weak
+88,Liam Wilson,Male,23,3.8,Computer Science,Database Management,Data Warehouse Design; SQL Query Optimization; iOS App,Database Administrator,Average,Strong,Weak
+89,Sophia Johnson,Female,22,3.5,Computer Science,Software Development,Embedded Systems; E-commerce Website; Neural Network Development,Embedded Software Engineer,Weak,Strong,Average
+90,Michael Brown,Male,21,3.9,Computer Science,Web Development,Front-End Development; Full-Stack Web App; Machine Learning,Web Developer,Strong,Average,Weak
+91,Emily Lee,Female,20,3.7,Computer Science,Data Science,Statistical Analysis; Big Data Analytics; Chatbot Development,Data Analyst,Strong,Average,Weak
+92,William Davis,Male,22,3.4,Computer Science,Artificial Intelligence,Robotics; Natural Language Processing; iOS App,Robotics Engineer,Strong,Strong,Weak
+93,Olivia Brown,Female,21,3.5,Computer Science,Game Development,Mobile Game Development; Network Security,Game Developer,Weak,Strong,Average
+94,John Smith,Male,23,3.6,Computer Science,Cybersecurity,Penetration Testing; Network Security; AWS Deployment,Ethical Hacker,Strong,Strong,Average
+95,Alice Johnson,Female,20,3.2,Computer Science,Computer Vision,Object Detection; Genomic Data Analysis,Computer Vision Engineer,Strong,Average,Weak
+96,Robert Davis,Male,22,3.8,Computer Science,Software Engineering,DevOps; E-commerce Website; Android App Development,DevOps Engineer,Strong,Average,Weak
+97,Emily Wilson,Female,21,3.7,Computer Science,Bioinformatics,Genomic Data Analysis; Protein Structure Prediction; Smart Contracts Developer,Bioinformatician,Weak,Strong,Strong
+98,Michael Brown,Male,23,3.4,Computer Science,IoT (Internet of Things),Smart Home Automation; Chatbot Development,IoT Developer,Weak,Strong,Average
+99,Laura Lee,Female,22,3.9,Computer Science,Natural Language Processing,Chatbot Development; Data Warehouse Design,NLP Engineer,Strong,Average,Weak
+100,William Johnson,Male,20,3.6,Computer Science,Data Mining,Market Analysis; Data Mining,Data Analyst,Strong,Average,Weak
+101,Sarah Miller,Female,21,3.7,Computer Science,Cloud Computing,Cloud Migration Specialist; GCP Deployment; Network Security,Cloud Solutions Architect,Weak,Strong,Average
+102,James Wilson,Male,23,3.3,Computer Science,Human-Computer Interaction,Usability Testing; User Experience Researcher; Data Mining,UX Designer,Strong,Average,Weak
+103,Olivia Clark,Female,22,3.5,Computer Science,Biomedical Computing,Medical Imaging Analysis; Healthcare Data Analyst; iOS App Development,Healthcare IT Specialist,Weak,Strong,Average
+104,Andrew Hall,Male,21,3.8,Computer Science,Quantum Computing,Quantum Algorithm Development; GCP Deployment,Quantum Computing Researcher,Strong,Average,Weak
+105,David Jones,Male,22,3.7,Computer Science,Computer Graphics,Virtual Reality Development; 3D Modeling; SQL Database Administration,VR Developer,Weak,Strong,Average
+106,Elizabeth Williams,Female,21,3.3,Computer Science,Blockchain Technology,Smart Contracts Developer; Natural Language Processing,Blockchain Engineer,Weak,Average,Strong
+107,Charles Miller,Male,23,3.5,Computer Science,Information Retrieval,Search Engine Optimization; SQL Query Optimization,SEO Specialist,Weak,Average,Strong
+108,Susan Davis,Female,22,3.8,Computer Science,Data Privacy,Privacy Compliance Officer; Robotics,Data Privacy Specialist,Weak,Average,Strong
+109,John Brown,Male,20,3.6,Computer Science,Geographic Information Systems,GIS Mapping; Statistical Analysis,Geospatial Analyst,Weak,Average,Strong
+110,Laura Lee,Female,21,3.9,Computer Science,Distributed Systems,Distributed Systems Architect; Usability Testing,Distributed Systems Engineer,Weak,Average,Strong
+111,William Johnson,Male,23,3.6,Computer Science,Digital Forensics,Computer Forensic Analyst; Data Mining,Digital Forensics Specialist,Weak,Average,Strong
+112,Sarah Miller,Female,22,3.7,Computer Science,Bioinformatics,Protein Structure Prediction; Genomic Data Analysis; Cross-Platform App Development,Bioinformatician,Weak,Average,Strong
+113,James Wilson,Male,20,3.3,Computer Science,Human-Computer Interaction,User Experience Researcher; Usability Testing; E-commerce Website,UX Designer,Weak,Average,Strong
+114,Olivia Clark,Female,21,3.5,Computer Science,Biomedical Computing,Healthcare Data Analyst; Medical Imaging Analysis; Natural Language Processing,Healthcare IT Specialist,Weak,Average,Strong
+115,Andrew Hall,Male,23,3.8,Computer Science,Quantum Computing,Quantum Algorithm Development; Game Development,Quantum Computing Researcher,Weak,Average,Strong
+116,Grace Smith,Female,20,3.6,Computer Science,Artificial Intelligence,Neural Network Development; Robotics; Data Mining,AI Researcher,Strong,Average,Weak
+117,Michael Johnson,Male,22,3.4,Computer Science,Data Science,Big Data Analytics; Data Analytics; Android App,Data Analyst,Average,Strong,Weak
+118,Olivia Davis,Female,21,3.9,Computer Science,Software Development,Mobile App Development; E-commerce Website; Cross-Platform App Development,Software Engineer,Strong,Strong,Average
+119,William Brown,Male,23,3.7,Computer Science,Web Development,E-commerce Website; Front-End Development; Virtual Reality Development,Web Developer,Weak,Strong,Strong
+120,Emily Wilson,Female,22,3.5,Computer Science,Cybersecurity,Network Security; Penetration Testing; Usability Testing,Information Security Analyst,Average,Weak,Strong
+121,David Lee,Male,21,3.8,Computer Science,Machine Learning,Image Classification; Image Recognition; Android App,Machine Learning Engineer,Strong,Weak,Weak
+122,Sophia Miller,Female,20,3.7,Computer Science,Database Management,SQL Database Design; SQL Query Optimization; Data Analytics,Database Administrator,Weak,Strong,Average
+123,James Wilson,Male,23,3.3,Computer Science,Cloud Computing,Cloud Infrastructure Management; Cloud Solution Architecture; Reinforcement Learning,Cloud Solutions Architect,Strong,Weak,Weak
+124,Emma Clark,Female,22,3.5,Computer Science,Mobile App Development,iOS App Development; Cross-Platform App Development; Data Warehouse Design,Mobile App Developer,Average,Strong,Weak
+125,Matthew Hall,Male,21,3.8,Computer Science,Artificial Intelligence,Natural Language Processing; Robotics; Cloud Infrastructure Management,NLP Research Scientist,Strong,Weak,Weak
+126,Olivia Davis,Female,22,3.7,Computer Science,Web Development,Full-Stack Web App; Front-End Development; Data Analytics,Web Developer,Weak,Strong,Strong
+127,William Smith,Male,23,3.3,Computer Science,Mobile App Development,Android App Development; iOS App; Smart Home Automation,Mobile App Developer,Average,Weak,Strong
+128,Emily Johnson,Female,20,3.5,Computer Science,Computer Graphics,3D Modeling; Virtual Reality Development; Data Analytics,Graphics Programmer,Weak,Average,Strong
+129,David Brown,Male,22,3.8,Computer Science,Software Engineering,Enterprise Software Development; DevOps; Android Game,Software Engineer,Strong,Strong,Average
+130,Sophia Wilson,Female,21,3.7,Computer Science,Cybersecurity,Network Security; Security Auditing; Embedded Systems,Information Security Analyst,Average,Weak,Strong
+131,James Miller,Male,23,3.3,Computer Science,Database Management,SQL Query Optimization; SQL Database Administration; GCP Deployment,Database Administrator,Average,Strong,Weak
+132,Emma Johnson,Female,22,3.5,Computer Science,Cloud Computing,AWS Deployment; GCP Deployment; Virtual Reality Development,Cloud Solutions Architect,Weak,Strong,Average
+133,Matthew Lee,Male,21,3.8,Computer Science,Artificial Intelligence,Computer Vision; Chatbot Development; SQL Database Administration,AI Researcher,Strong,Average,Weak
+134,Oliver Davis,Male,23,3.7,Computer Science,Data Science,Machine Learning; Big Data Analytics; AWS Deployment,Data Scientist,Average,Strong,Weak
+135,Isabella Brown,Female,20,3.6,Computer Science,Software Development,Web Application Development; Social Media Platform; SQL Database Administration,Software Engineer,Strong,Weak,Strong
+136,Elijah Smith,Male,22,3.4,Computer Science,Web Development,E-commerce Website; Full-Stack Web App; Smart Contracts Developer,Web Developer,Weak,Strong,Strong
+137,Ava Miller,Female,21,3.9,Computer Science,Cybersecurity,Security Auditing; Network Security; Data Analytics,Information Security Analyst,Strong,Average,Weak
+138,Liam Wilson,Male,23,3.7,Computer Science,Machine Learning,Natural Language Processing; Deep Learning Models; Computer Forensic Analyst,Machine Learning Engineer,Strong,Average,Weak
+139,Sophia Johnson,Female,22,3.5,Computer Science,Database Management,SQL Database Administration; SQL Query Optimization; Game Development,Database Administrator,Weak,Strong,Average
+140,Michael Brown,Male,21,3.8,Computer Science,Cloud Computing,Cloud Solution Architecture; Cloud Infrastructure Management; Image Classification,Cloud Solutions Architect,Strong,Strong,Weak
+141,Emily Lee,Female,20,3.7,Computer Science,Mobile App Development,Cross-Platform App Development; Android App Development; E-commerce Website,Mobile App Developer,Weak,Strong,Average
+142,William Davis,Male,23,3.3,Computer Science,Artificial Intelligence,Reinforcement Learning; Neural Network Development; Data Warehouse Design,AI Researcher,Strong,Weak,Average
+143,Olivia Brown,Female,22,3.5,Computer Science,Data Science,Data Mining; Big Data Analytics; Healthcare Data Analyst,Data Analyst,Average,Weak,Strong
+144,John Smith,Male,21,3.6,Computer Science,Web Development,Front-End Development; E-commerce Website; AWS Deployment,Web Developer,Weak,Strong,Average
+145,Alice Johnson,Female,20,3.7,Computer Science,Machine Learning,Computer Vision; Deep Learning Models; Android App Development,Machine Learning Engineer,Strong,Average,Weak
+146,Charlotte Davis,Female,22,3.7,Computer Science,Artificial Intelligence,Reinforcement Learning; Computer Vision; Cloud Solution Architecture,AI Researcher,Strong,Average,Weak
+147,Joseph Miller,Male,21,3.6,Computer Science,Data Science,Machine Learning; Statistical Analysis; Market Analysis,Data Scientist,Strong,Average,Weak
+148,Emma Wilson,Female,20,3.8,Computer Science,Software Development,Mobile App Development; Web Application Development; Computer Vision,Software Engineer,Strong,Strong,Average
+149,Oliver Brown,Male,23,3.7,Computer Science,Web Development,E-commerce Website; Full-Stack Web App; Virtual Reality Development,Web Developer,Weak,Strong,Strong
+150,Sophia Johnson,Female,22,3.5,Computer Science,Cybersecurity,Network Security; Penetration Testing; Cloud Migration Specialist,Information Security Analyst,Average,Weak,Strong
+151,William Smith,Male,21,3.9,Computer Science,Machine Learning,Image Classification; Natural Language Processing; 3D Animation,Machine Learning Engineer,Strong,Average,Weak
+152,Charlotte Davis,Female,22,3.7,Computer Science,Database Management,SQL Database Design; SQL Database Administration; Data Mining,Database Administrator,Weak,Strong,Average
+153,James Wilson,Male,20,3.6,Computer Science,Cloud Computing,Cloud Infrastructure Management; GCP Deployment; Embedded Systems,Cloud Solutions Architect,Strong,Weak,Weak
+154,Olivia Clark,Female,21,3.5,Computer Science,Mobile App Development,iOS App Development; Cross-Platform App Development; Robotics,Mobile App Developer,Weak,Strong,Average
+155,Matthew Hall,Male,23,3.8,Computer Science,Artificial Intelligence,Natural Language Processing; Robotics; Quantum Algorithm Development,NLP Research Scientist,Strong,Weak,Weak
+156,Elijah Davis,Male,22,3.7,Computer Science,Web Development,Full-Stack Web App; Front-End Development; Cloud Infrastructure Management,Web Developer,Weak,Strong,Strong
+157,Emma Johnson,Female,20,3.6,Computer Science,Cybersecurity,Security Auditing; Network Security; Deep Learning Models,Information Security Analyst,Strong,Average,Weak
+158,Liam Wilson,Male,21,3.4,Computer Science,Machine Learning,Natural Language Processing; Deep Learning Models; AWS Deployment,Machine Learning Engineer,Strong,Average,Weak
+159,Sophia Johnson,Female,22,3.5,Computer Science,Database Management,SQL Database Administration; SQL Query Optimization; Robotics,Database Administrator,Weak,Strong,Average
+160,Michael Brown,Male,23,3.7,Computer Science,Cloud Computing,Cloud Solution Architecture; AWS Deployment; Search Engine Optimization,Cloud Solutions Architect,Strong,Strong,Weak
+161,Emily Lee,Female,20,3.8,Computer Science,Mobile App Development,Cross-Platform App Development; Android Game; AWS Deployment,Mobile App Developer,Weak,Strong,Average
+162,William Davis,Male,21,3.7,Computer Science,Artificial Intelligence,Reinforcement Learning; Chatbot Development; Network Security,AI Researcher,Strong,Weak,Average
+163,Olivia Brown,Female,22,3.5,Computer Science,Data Science,Data Mining; Statistical Analysis; Medical Imaging Analysis,Data Analyst,Average,Weak,Strong
+164,John Smith,Male,23,3.6,Computer Science,Web Development,Front-End Development; E-commerce Website; AWS Deployment,Web Developer,Weak,Strong,Average
+165,Alice Johnson,Female,20,3.7,Computer Science,Machine Learning,Computer Vision; Deep Learning Models; User Experience Researcher,Machine Learning Engineer,Strong,Average,Weak
+166,Charlotte Davis,Female,22,3.7,Computer Science,Artificial Intelligence,Neural Network Development; Computer Vision; Android App,AI Researcher,Strong,Average,Weak
+167,Joseph Miller,Male,21,3.6,Computer Science,Data Science,Big Data Analytics; Data Analytics; Reinforcement Learning,Data Analyst,Average,Strong,Weak
+168,Emma Wilson,Female,20,3.8,Computer Science,Software Development,Mobile App Development; Embedded Systems; GCP Deployment,Software Engineer,Strong,Strong,Average
+169,Oliver Brown,Male,23,3.7,Computer Science,Web Development,E-commerce Website; Front-End Development; iOS App Development,Web Developer,Weak,Strong,Strong
+170,Sophia Johnson,Female,22,3.5,Computer Science,Cybersecurity,Network Security; Penetration Testing; Mobile App Development,Information Security Analyst,Average,Weak,Strong
+171,William Smith,Male,21,3.9,Computer Science,Machine Learning,Image Classification; Computer Vision; Privacy Compliance Officer,Machine Learning Engineer,Strong,Average,Weak
+172,Charlotte Davis,Female,22,3.7,Computer Science,Database Management,SQL Database Design; Data Warehouse Design; GCP Deployment,Database Administrator,Weak,Strong,Average
+173,James Wilson,Male,20,3.6,Computer Science,Cloud Computing,Cloud Infrastructure Management; Cloud Solution Architecture; iOS Game,Cloud Solutions Architect,Strong,Weak,Weak
+174,Olivia Clark,Female,21,3.5,Computer Science,Mobile App Development,iOS App Development; Android Game; Data Warehouse Design,Mobile App Developer,Weak,Strong,Average
+175,Matthew Hall,Male,23,3.8,Computer Science,Artificial Intelligence,Natural Language Processing; Neural Network Development; Data Warehouse Design,NLP Research Scientist,Strong,Weak,Weak
+176,Elijah Davis,Male,22,3.7,Computer Science,Web Development,Full-Stack Web App; Front-End Development; GIS Mapping,Web Developer,Weak,Strong,Strong
+177,Emma Johnson,Female,20,3.6,Computer Science,Cybersecurity,Security Auditing; Network Security; Privacy Compliance Officer,Information Security Analyst,Strong,Average,Weak
+178,Liam Wilson,Male,21,3.4,Computer Science,Machine Learning,Natural Language Processing; Image Classification; Healthcare Data Analyst,Machine Learning Engineer,Strong,Average,Weak
+179,Sophia Johnson,Female,22,3.5,Computer Science,Database Management,SQL Database Administration; SQL Database Design; iOS App Development,Database Administrator,Weak,Strong,Average
+180,Michael Brown,Male,23,3.7,Computer Science,Cloud Computing,Cloud Solution Architecture; AWS Deployment; 3D Animation,Cloud Solutions Architect,Strong,Strong,Weak

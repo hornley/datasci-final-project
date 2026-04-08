@@ -1,0 +1,174 @@
+Age,GPA,Interested Domain,Projects,Future Career,Python,SQL,Java
+21,3.5,Artificial Intelligence,Chatbot Development; Computer Vision; 3D Modeling,Machine Learning Researcher,Strong,Strong,Weak
+20,3.2,Data Science,Data Analytics; Machine Learning; Deep Learning Models,Data Scientist,Average,Strong,Weak
+22,3.8,Software Development,E-commerce Website; Mobile App Development; Chatbot Development,Software Engineer,Strong,Strong,Average
+21,3.7,Web Development,Full-Stack Web App; E-commerce Website; Quantum Algorithm Development,Web Developer,Weak,Strong,Strong
+23,3.4,Cybersecurity,Network Security; Penetration Testing; Mobile App Development,Information Security Analyst,Average,Weak,Strong
+22,3.9,Machine Learning,Image Recognition; Natural Language Processing; 3D Rendering,Machine Learning Engineer,Strong,Average,Weak
+20,3.6,Database Management,SQL Query Optimization; Data Warehouse Design; Android App Development,Database Administrator,Average,Strong,Weak
+21,3.7,Cloud Computing,AWS Deployment; Cloud Migration Specialist; Deep Learning Models,Cloud Solutions Architect,Weak,Strong,Average
+23,3.3,Mobile App Development,Android App; iOS App Development; Object Detection,Mobile App Developer,Average,Weak,Strong
+22,3.5,Computer Graphics,3D Rendering; 3D Animation; Natural Language Processing,Graphics Programmer,Weak,Average,Strong
+21,3.8,Artificial Intelligence,Natural Language Processing; Computer Vision; SQL Query Optimization,NLP Research Scientist,Strong,Average,Weak
+22,3.7,Web Development,Full-Stack Web App; Front-End Development; Cross-Platform App Development,Web Developer,Strong,Strong,Average
+21,3.3,Mobile App Development,iOS App; Cross-Platform App Development; Neural Network Development,Mobile App Developer,Average,Weak,Strong
+23,3.5,Computer Graphics,Game Development; 3D Rendering; Smart Home Automation,Game Developer,Weak,Average,Strong
+22,3.8,Software Engineering,E-commerce Website; DevOps; SQL Query Optimization,Software Engineer,Strong,Strong,Average
+20,3.6,Cybersecurity,Network Security; Penetration Testing; Quantum Algorithm Development,Information Security Analyst,Average,Weak,Strong
+21,3.9,Machine Learning,Image Recognition; Natural Language Processing; Enterprise Software Development,Machine Learning Engineer,Strong,Average,Weak
+23,3.6,Database Management,SQL Query Optimization; SQL Database Administration; Cloud Infrastructure Management,Database Administrator,Average,Strong,Weak
+22,3.7,Cloud Computing,AWS Deployment; Cloud Migration Specialist; Security Auditing,Cloud Solutions Architect,Weak,Strong,Average
+20,3.3,Mobile App Development,Android App; Cross-Platform App Development; Cloud Infrastructure Management,Mobile App Developer,Average,Weak,Strong
+21,3.5,Computer Graphics,3D Rendering; 3D Animation; GCP Deployment,Graphics Programmer,Weak,Average,Strong
+23,3.8,Artificial Intelligence,Natural Language Processing; Chatbot Development; Firewall Management,NLP Research Scientist,Strong,Average,Weak
+22,3.7,Web Development,Full-Stack Web App; Front-End Development; Neural Network Development,Web Developer,Strong,Strong,Average
+21,3.3,Mobile App Development,iOS App; Android Game; Smart Home Automation,Mobile App Developer,Average,Weak,Strong
+23,3.5,Computer Graphics,Game Development; 3D Animation; SQL Database Design,Game Developer,Weak,Average,Strong
+22,3.8,Software Engineering,E-commerce Website; Enterprise Software Development; Mobile App Development,Software Engineer,Strong,Strong,Average
+20,3.6,Cybersecurity,Network Security; Penetration Testing; iOS App,Information Security Analyst,Average,Weak,Strong
+21,3.9,Machine Learning,Image Recognition; Natural Language Processing; Android App Development,Machine Learning Engineer,Strong,Average,Weak
+23,3.6,Database Management,SQL Query Optimization; SQL Database Design; DevOps,Database Administrator,Average,Strong,Weak
+22,3.7,Cloud Computing,AWS Deployment; Cloud Solution Architecture; Neural Network Development,Cloud Solutions Architect,Weak,Strong,Average
+20,3.3,Mobile App Development,Android App; Android Game; SQL Database Administration,Mobile App Developer,Average,Weak,Strong
+21,3.5,Computer Graphics,3D Rendering; 3D Animation; Android App Development,Graphics Programmer,Weak,Average,Strong
+23,3.8,Artificial Intelligence,Natural Language Processing; Computer Vision; Smart Home Automation,NLP Research Scientist,Strong,Average,Weak
+22,3.7,Web Development,Full-Stack Web App; Front-End Development; Android App Development,Web Developer,Strong,Strong,Average
+21,3.3,Mobile App Development,iOS App; Android App Development; User Experience Researcher,Mobile App Developer,Average,Weak,Strong
+23,3.5,Computer Graphics,Game Development; 3D Animation; GCP Deployment,Game Developer,Weak,Average,Strong
+22,3.8,Software Engineering,E-commerce Website; Enterprise Software Development; Image Classification,Software Engineer,Strong,Strong,Average
+20,3.6,Cybersecurity,Network Security; Security Auditing; Cloud Migration Specialist,Information Security Analyst,Average,Weak,Strong
+21,3.9,Machine Learning,Image Recognition; Image Classification; Firewall Management,Machine Learning Engineer,Strong,Average,Weak
+22,3.6,Cloud Computing,GCP Deployment; Cloud Infrastructure Management; Reinforcement Learning,Cloud Solutions Architect,Strong,Strong,Average
+20,3.3,Software Development,Social Media Platform; Mobile App Development; Reinforcement Learning,Software Engineer,Average,Weak,Strong
+21,3.7,Web Development,E-commerce Website; Front-End Development; Neural Network Development,Web Developer,Weak,Strong,Strong
+23,3.5,Mobile App Development,iOS Game; iOS App Development; Computer Vision,Mobile App Developer,Average,Weak,Strong
+22,3.8,Computer Graphics,3D Animation; 3D Rendering; Computer Vision,Graphics Programmer,Weak,Average,Strong
+21,3.6,Artificial Intelligence,Natural Language Processing; Reinforcement Learning; Full-Stack Web App,NLP Research Scientist,Strong,Average,Weak
+20,3.3,Data Science,Machine Learning; Data Mining; iOS Game,Data Scientist,Average,Strong,Weak
+22,3.7,Cybersecurity,Network Security; Penetration Testing; Protein Structure Prediction,Information Security Analyst,Weak,Strong,Average
+21,3.5,Database Management,SQL Query Optimization; SQL Database Administration; Statistical Analysis,Database Administrator,Average,Weak,Strong
+23,3.8,Cloud Computing,AWS Deployment; Cloud Infrastructure Management; Deep Learning Models,Cloud Solutions Architect,Strong,Strong,Average
+22,3.6,Software Development,Social Media Platform; E-commerce Website; Smart Contracts Developer,Software Engineer,Average,Weak,Strong
+21,3.7,Web Development,E-commerce Website; Full-Stack Web App; GIS Mapping,Web Developer,Weak,Strong,Strong
+20,3.3,Mobile App Development,Android Game; Cross-Platform App Development; Big Data Analytics,Mobile App Developer,Average,Weak,Strong
+22,3.8,Computer Graphics,3D Modeling; 3D Rendering; iOS App Development,Graphics Programmer,Weak,Average,Strong
+21,3.6,Artificial Intelligence,Natural Language Processing; Robotics; iOS App,NLP Research Scientist,Strong,Average,Weak
+20,3.3,Data Science,Machine Learning; Data Mining; Cross-Platform App Development,Data Scientist,Average,Strong,Weak
+22,3.7,Cybersecurity,Network Security; Security Auditing; Front-End Development,Information Security Analyst,Weak,Strong,Average
+21,3.5,Database Management,SQL Query Optimization; SQL Database Design; Genomic Data Analysis,Database Administrator,Average,Weak,Strong
+23,3.8,Cloud Computing,AWS Deployment; Cloud Migration Specialist; Distributed Systems Architect,Cloud Solutions Architect,Strong,Strong,Average
+22,3.6,Software Development,Social Media Platform; Embedded Systems; Data Analytics,Software Engineer,Average,Weak,Strong
+20,3.3,Web Development,E-commerce Website; Full-Stack Web App; SQL Database Design,Web Developer,Weak,Strong,Strong
+21,3.7,Mobile App Development,Android Game; iOS App Development; Healthcare Data Analyst,Mobile App Developer,Average,Weak,Strong
+22,3.5,Computer Graphics,3D Animation; Virtual Reality Development; Full-Stack Web App,Graphics Programmer,Weak,Average,Strong
+23,3.8,Artificial Intelligence,Natural Language Processing; Computer Vision; Cloud Infrastructure Management,NLP Research Scientist,Strong,Average,Weak
+20,3.3,Data Science,Machine Learning; Statistical Analysis; Android App Development,Data Scientist,Average,Strong,Weak
+22,3.7,Cybersecurity,Network Security; Penetration Testing; Usability Testing,Information Security Analyst,Weak,Strong,Average
+21,3.5,Database Management,SQL Query Optimization; Data Warehouse Design; Cloud Infrastructure Management,Database Administrator,Average,Weak,Strong
+23,3.8,Cloud Computing,AWS Deployment; Cloud Migration Specialist; Smart Home Automation,Cloud Solutions Architect,Strong,Strong,Average
+22,3.6,Software Development,Social Media Platform; Web Application Development; Neural Network Development,Software Engineer,Average,Weak,Strong
+20,3.3,Web Development,E-commerce Website; Front-End Development; GCP Deployment,Web Developer,Weak,Strong,Strong
+21,3.7,Mobile App Development,Android Game; iOS App; Object Detection,Mobile App Developer,Average,Weak,Strong
+22,3.5,Computer Graphics,3D Animation; Virtual Reality Development; Mobile App Development,Graphics Programmer,Weak,Average,Strong
+23,3.8,Artificial Intelligence,Natural Language Processing; Neural Network Development; Mobile App Development,NLP Research Scientist,Strong,Average,Weak
+20,3.3,Data Science,Machine Learning; Big Data Analytics; Reinforcement Learning,Data Scientist,Average,Strong,Weak
+22,3.7,Cybersecurity,Network Security; Penetration Testing; Protein Structure Prediction,Information Security Analyst,Weak,Strong,Average
+21,3.5,Database Management,SQL Query Optimization; SQL Database Design; Search Engine Optimization,Database Administrator,Average,Weak,Strong
+22,3.7,Cybersecurity,Network Security; Security Auditing; SQL Query Optimization,Information Security Analyst,Weak,Strong,Average
+29,3.6,Mobile App Development,Android Game; Android App; SQL Database Design,Mobile App Developer,Strong,Average,Strong
+29,3.7,Artificial Intelligence,Natural Language Processing; Neural Network Development; User Experience Researcher,NLP Research Scientist,Strong,Average,Weak
+22,3.7,Network Security,Firewall Management; Robotics,Security Analyst,Strong,Average,Weak
+21,3.6,Machine Learning,Deep Learning Models; Image Classification; Mobile Game Development,Machine Learning Engineer,Strong,Average,Weak
+23,3.8,Database Management,Data Warehouse Design; SQL Query Optimization; iOS App,Database Administrator,Average,Strong,Weak
+22,3.5,Software Development,Embedded Systems; E-commerce Website; Neural Network Development,Embedded Software Engineer,Weak,Strong,Average
+21,3.9,Web Development,Front-End Development; Full-Stack Web App; Machine Learning,Web Developer,Strong,Average,Weak
+20,3.7,Data Science,Statistical Analysis; Big Data Analytics; Chatbot Development,Data Analyst,Strong,Average,Weak
+22,3.4,Artificial Intelligence,Robotics; Natural Language Processing; iOS App,Robotics Engineer,Strong,Strong,Weak
+21,3.5,Game Development,Mobile Game Development; Network Security,Game Developer,Weak,Strong,Average
+23,3.6,Cybersecurity,Penetration Testing; Network Security; AWS Deployment,Ethical Hacker,Strong,Strong,Average
+20,3.2,Computer Vision,Object Detection; Genomic Data Analysis,Computer Vision Engineer,Strong,Average,Weak
+22,3.8,Software Engineering,DevOps; E-commerce Website; Android App Development,DevOps Engineer,Strong,Average,Weak
+21,3.7,Bioinformatics,Genomic Data Analysis; Protein Structure Prediction; Smart Contracts Developer,Bioinformatician,Weak,Strong,Strong
+23,3.4,IoT (Internet of Things),Smart Home Automation; Chatbot Development,IoT Developer,Weak,Strong,Average
+22,3.9,Natural Language Processing,Chatbot Development; Data Warehouse Design,NLP Engineer,Strong,Average,Weak
+20,3.6,Data Mining,Market Analysis; Data Mining,Data Analyst,Strong,Average,Weak
+21,3.7,Cloud Computing,Cloud Migration Specialist; GCP Deployment; Network Security,Cloud Solutions Architect,Weak,Strong,Average
+23,3.3,Human-Computer Interaction,Usability Testing; User Experience Researcher; Data Mining,UX Designer,Strong,Average,Weak
+22,3.5,Biomedical Computing,Medical Imaging Analysis; Healthcare Data Analyst; iOS App Development,Healthcare IT Specialist,Weak,Strong,Average
+21,3.8,Quantum Computing,Quantum Algorithm Development; GCP Deployment,Quantum Computing Researcher,Strong,Average,Weak
+22,3.7,Computer Graphics,Virtual Reality Development; 3D Modeling; SQL Database Administration,VR Developer,Weak,Strong,Average
+21,3.3,Blockchain Technology,Smart Contracts Developer; Natural Language Processing,Blockchain Engineer,Weak,Average,Strong
+23,3.5,Information Retrieval,Search Engine Optimization; SQL Query Optimization,SEO Specialist,Weak,Average,Strong
+22,3.8,Data Privacy,Privacy Compliance Officer; Robotics,Data Privacy Specialist,Weak,Average,Strong
+20,3.6,Geographic Information Systems,GIS Mapping; Statistical Analysis,Geospatial Analyst,Weak,Average,Strong
+21,3.9,Distributed Systems,Distributed Systems Architect; Usability Testing,Distributed Systems Engineer,Weak,Average,Strong
+23,3.6,Digital Forensics,Computer Forensic Analyst; Data Mining,Digital Forensics Specialist,Weak,Average,Strong
+22,3.7,Bioinformatics,Protein Structure Prediction; Genomic Data Analysis; Cross-Platform App Development,Bioinformatician,Weak,Average,Strong
+20,3.3,Human-Computer Interaction,User Experience Researcher; Usability Testing; E-commerce Website,UX Designer,Weak,Average,Strong
+21,3.5,Biomedical Computing,Healthcare Data Analyst; Medical Imaging Analysis; Natural Language Processing,Healthcare IT Specialist,Weak,Average,Strong
+23,3.8,Quantum Computing,Quantum Algorithm Development; Game Development,Quantum Computing Researcher,Weak,Average,Strong
+20,3.6,Artificial Intelligence,Neural Network Development; Robotics; Data Mining,AI Researcher,Strong,Average,Weak
+22,3.4,Data Science,Big Data Analytics; Data Analytics; Android App,Data Analyst,Average,Strong,Weak
+21,3.9,Software Development,Mobile App Development; E-commerce Website; Cross-Platform App Development,Software Engineer,Strong,Strong,Average
+23,3.7,Web Development,E-commerce Website; Front-End Development; Virtual Reality Development,Web Developer,Weak,Strong,Strong
+22,3.5,Cybersecurity,Network Security; Penetration Testing; Usability Testing,Information Security Analyst,Average,Weak,Strong
+21,3.8,Machine Learning,Image Classification; Image Recognition; Android App,Machine Learning Engineer,Strong,Weak,Weak
+20,3.7,Database Management,SQL Database Design; SQL Query Optimization; Data Analytics,Database Administrator,Weak,Strong,Average
+23,3.3,Cloud Computing,Cloud Infrastructure Management; Cloud Solution Architecture; Reinforcement Learning,Cloud Solutions Architect,Strong,Weak,Weak
+22,3.5,Mobile App Development,iOS App Development; Cross-Platform App Development; Data Warehouse Design,Mobile App Developer,Average,Strong,Weak
+21,3.8,Artificial Intelligence,Natural Language Processing; Robotics; Cloud Infrastructure Management,NLP Research Scientist,Strong,Weak,Weak
+22,3.7,Web Development,Full-Stack Web App; Front-End Development; Data Analytics,Web Developer,Weak,Strong,Strong
+23,3.3,Mobile App Development,Android App Development; iOS App; Smart Home Automation,Mobile App Developer,Average,Weak,Strong
+20,3.5,Computer Graphics,3D Modeling; Virtual Reality Development; Data Analytics,Graphics Programmer,Weak,Average,Strong
+22,3.8,Software Engineering,Enterprise Software Development; DevOps; Android Game,Software Engineer,Strong,Strong,Average
+21,3.7,Cybersecurity,Network Security; Security Auditing; Embedded Systems,Information Security Analyst,Average,Weak,Strong
+23,3.3,Database Management,SQL Query Optimization; SQL Database Administration; GCP Deployment,Database Administrator,Average,Strong,Weak
+22,3.5,Cloud Computing,AWS Deployment; GCP Deployment; Virtual Reality Development,Cloud Solutions Architect,Weak,Strong,Average
+21,3.8,Artificial Intelligence,Computer Vision; Chatbot Development; SQL Database Administration,AI Researcher,Strong,Average,Weak
+23,3.7,Data Science,Machine Learning; Big Data Analytics; AWS Deployment,Data Scientist,Average,Strong,Weak
+20,3.6,Software Development,Web Application Development; Social Media Platform; SQL Database Administration,Software Engineer,Strong,Weak,Strong
+22,3.4,Web Development,E-commerce Website; Full-Stack Web App; Smart Contracts Developer,Web Developer,Weak,Strong,Strong
+21,3.9,Cybersecurity,Security Auditing; Network Security; Data Analytics,Information Security Analyst,Strong,Average,Weak
+23,3.7,Machine Learning,Natural Language Processing; Deep Learning Models; Computer Forensic Analyst,Machine Learning Engineer,Strong,Average,Weak
+22,3.5,Database Management,SQL Database Administration; SQL Query Optimization; Game Development,Database Administrator,Weak,Strong,Average
+21,3.8,Cloud Computing,Cloud Solution Architecture; Cloud Infrastructure Management; Image Classification,Cloud Solutions Architect,Strong,Strong,Weak
+20,3.7,Mobile App Development,Cross-Platform App Development; Android App Development; E-commerce Website,Mobile App Developer,Weak,Strong,Average
+23,3.3,Artificial Intelligence,Reinforcement Learning; Neural Network Development; Data Warehouse Design,AI Researcher,Strong,Weak,Average
+22,3.5,Data Science,Data Mining; Big Data Analytics; Healthcare Data Analyst,Data Analyst,Average,Weak,Strong
+21,3.6,Web Development,Front-End Development; E-commerce Website; AWS Deployment,Web Developer,Weak,Strong,Average
+20,3.7,Machine Learning,Computer Vision; Deep Learning Models; Android App Development,Machine Learning Engineer,Strong,Average,Weak
+22,3.7,Artificial Intelligence,Reinforcement Learning; Computer Vision; Cloud Solution Architecture,AI Researcher,Strong,Average,Weak
+21,3.6,Data Science,Machine Learning; Statistical Analysis; Market Analysis,Data Scientist,Strong,Average,Weak
+20,3.8,Software Development,Mobile App Development; Web Application Development; Computer Vision,Software Engineer,Strong,Strong,Average
+23,3.7,Web Development,E-commerce Website; Full-Stack Web App; Virtual Reality Development,Web Developer,Weak,Strong,Strong
+22,3.5,Cybersecurity,Network Security; Penetration Testing; Cloud Migration Specialist,Information Security Analyst,Average,Weak,Strong
+21,3.9,Machine Learning,Image Classification; Natural Language Processing; 3D Animation,Machine Learning Engineer,Strong,Average,Weak
+22,3.7,Database Management,SQL Database Design; SQL Database Administration; Data Mining,Database Administrator,Weak,Strong,Average
+20,3.6,Cloud Computing,Cloud Infrastructure Management; GCP Deployment; Embedded Systems,Cloud Solutions Architect,Strong,Weak,Weak
+21,3.5,Mobile App Development,iOS App Development; Cross-Platform App Development; Robotics,Mobile App Developer,Weak,Strong,Average
+23,3.8,Artificial Intelligence,Natural Language Processing; Robotics; Quantum Algorithm Development,NLP Research Scientist,Strong,Weak,Weak
+22,3.7,Web Development,Full-Stack Web App; Front-End Development; Cloud Infrastructure Management,Web Developer,Weak,Strong,Strong
+20,3.6,Cybersecurity,Security Auditing; Network Security; Deep Learning Models,Information Security Analyst,Strong,Average,Weak
+21,3.4,Machine Learning,Natural Language Processing; Deep Learning Models; AWS Deployment,Machine Learning Engineer,Strong,Average,Weak
+22,3.5,Database Management,SQL Database Administration; SQL Query Optimization; Robotics,Database Administrator,Weak,Strong,Average
+23,3.7,Cloud Computing,Cloud Solution Architecture; AWS Deployment; Search Engine Optimization,Cloud Solutions Architect,Strong,Strong,Weak
+20,3.8,Mobile App Development,Cross-Platform App Development; Android Game; AWS Deployment,Mobile App Developer,Weak,Strong,Average
+21,3.7,Artificial Intelligence,Reinforcement Learning; Chatbot Development; Network Security,AI Researcher,Strong,Weak,Average
+22,3.5,Data Science,Data Mining; Statistical Analysis; Medical Imaging Analysis,Data Analyst,Average,Weak,Strong
+23,3.6,Web Development,Front-End Development; E-commerce Website; AWS Deployment,Web Developer,Weak,Strong,Average
+20,3.7,Machine Learning,Computer Vision; Deep Learning Models; User Experience Researcher,Machine Learning Engineer,Strong,Average,Weak
+22,3.7,Artificial Intelligence,Neural Network Development; Computer Vision; Android App,AI Researcher,Strong,Average,Weak
+21,3.6,Data Science,Big Data Analytics; Data Analytics; Reinforcement Learning,Data Analyst,Average,Strong,Weak
+20,3.8,Software Development,Mobile App Development; Embedded Systems; GCP Deployment,Software Engineer,Strong,Strong,Average
+23,3.7,Web Development,E-commerce Website; Front-End Development; iOS App Development,Web Developer,Weak,Strong,Strong
+22,3.5,Cybersecurity,Network Security; Penetration Testing; Mobile App Development,Information Security Analyst,Average,Weak,Strong
+21,3.9,Machine Learning,Image Classification; Computer Vision; Privacy Compliance Officer,Machine Learning Engineer,Strong,Average,Weak
+22,3.7,Database Management,SQL Database Design; Data Warehouse Design; GCP Deployment,Database Administrator,Weak,Strong,Average
+20,3.6,Cloud Computing,Cloud Infrastructure Management; Cloud Solution Architecture; iOS Game,Cloud Solutions Architect,Strong,Weak,Weak
+21,3.5,Mobile App Development,iOS App Development; Android Game; Data Warehouse Design,Mobile App Developer,Weak,Strong,Average
+23,3.8,Artificial Intelligence,Natural Language Processing; Neural Network Development; Data Warehouse Design,NLP Research Scientist,Strong,Weak,Weak
+22,3.7,Web Development,Full-Stack Web App; Front-End Development; GIS Mapping,Web Developer,Weak,Strong,Strong
+20,3.6,Cybersecurity,Security Auditing; Network Security; Privacy Compliance Officer,Information Security Analyst,Strong,Average,Weak
+21,3.4,Machine Learning,Natural Language Processing; Image Classification; Healthcare Data Analyst,Machine Learning Engineer,Strong,Average,Weak
+22,3.5,Database Management,SQL Database Administration; SQL Database Design; iOS App Development,Database Administrator,Weak,Strong,Average
+23,3.7,Cloud Computing,Cloud Solution Architecture; AWS Deployment; 3D Animation,Cloud Solutions Architect,Strong,Strong,Weak

@@ -1,0 +1,28 @@
+{
+  "hornley": {
+    "password_hash": "841545141b2fce8cb35b53bd1c0e6c1d$b9252cc4d3d24090450b7ce4941c6dfc8e7b689c52cc76181f424bcd131215dc",
+    "profile": null
+  },
+  "leyhar": {
+    "password_hash": "53786ce961d85da05239a67f36777af0$764869dbabc63f97bebd2d37dbcf6653981a1e88847cfb0befc64eb36146c1e4",
+    "profile": {
+      "Age": 21,
+      "GPA": 3.5,
+      "Interested Domain": "Artificial Intelligence",
+      "Projects": [
+        "Chatbot Development",
+        "Computer Vision",
+        "Full-Stack Web App",
+        "Game Development",
+        "Machine Learning",
+        "Image Recognition",
+        "Image Classification",
+        "Natural Language Processing",
+        "Mobile Game Development"
+      ],
+      "Python": "Strong",
+      "SQL": "Average",
+      "Java": "Strong"
+    }
+  }
+}

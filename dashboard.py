@@ -1,6 +1,9 @@
 import os
+import json
 import time
 import joblib
+import hashlib
+import secrets
 import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
@@ -22,11 +25,249 @@ DATASET_PATH = "cs_students.csv"
 MODEL_PATH = "career_model.pkl"
 TARGET_ENCODER_PATH = "target_encoder.pkl"
 FEATURE_ENCODERS_PATH = "feature_encoders.pkl"
+USERS_DB_PATH = "users.json"
 
 BASE_FEATURE_COLUMNS = ["Age", "GPA", "Interested Domain", "Python", "SQL", "Java"]
 CAT_FEATURE_COLUMNS = ["Interested Domain", "Python", "SQL", "Java"]
 PROJECT_COLUMN = "Projects"
 PROJECT_PREFIX = "project__"
+
+
+def init_auth_state() -> None:
+    if "is_authenticated" not in st.session_state:
+        st.session_state["is_authenticated"] = False
+    if "current_user" not in st.session_state:
+        st.session_state["current_user"] = None
+
+
+def load_users() -> dict:
+    if not os.path.exists(USERS_DB_PATH):
+        return {}
+
+    try:
+        with open(USERS_DB_PATH, "r", encoding="utf-8") as f:
+            users = json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+    return users if isinstance(users, dict) else {}
+
+
+def save_users(users: dict) -> None:
+    with open(USERS_DB_PATH, "w", encoding="utf-8") as f:
+        json.dump(users, f, indent=2)
+
+
+def hash_password(password: str, salt: str | None = None) -> str:
+    safe_salt = salt or secrets.token_hex(16)
+    digest = hashlib.sha256(f"{safe_salt}:{password}".encode("utf-8")).hexdigest()
+    return f"{safe_salt}${digest}"
+
+
+def verify_password(password: str, stored_hash: str) -> bool:
+    parts = stored_hash.split("$", 1)
+    if len(parts) != 2:
+        return False
+
+    salt, _ = parts
+    return hash_password(password, salt) == stored_hash
+
+
+def selectbox_index(options: list[str], value: str | None) -> int | None:
+    if value is None:
+        return None
+    return options.index(value) if value in options else None
+
+
+def normalize_profile_projects(raw_projects) -> list[str]:
+    if isinstance(raw_projects, list):
+        return [str(p).strip() for p in raw_projects if str(p).strip()]
+    if isinstance(raw_projects, str):
+        return split_projects(raw_projects)
+    return []
+
+
+def build_profile_payload(
+    age: int,
+    gpa: float,
+    interested_domain: str,
+    projects: list[str],
+    python_skill: str,
+    sql_skill: str,
+    java_skill: str,
+) -> dict:
+    return {
+        "Age": int(age),
+        "GPA": float(gpa),
+        "Interested Domain": interested_domain,
+        "Projects": projects,
+        "Python": python_skill,
+        "SQL": sql_skill,
+        "Java": java_skill,
+    }
+
+
+def render_auth_ui(saved_artifacts: dict | None) -> bool:
+    left_spacer, center_container, right_spacer = st.columns([1, 1.8, 1])
+    with center_container:
+        auth_wrapper = st.container(border=True)
+
+    with auth_wrapper:
+        st.markdown(
+            """
+            <h1 style='text-align: center; margin-bottom: 0.2rem;'>Career Model Dashboard</h1>
+            <p style='text-align: center; color: #666;'>
+                View training results and predict your future career based on your profile.
+            </p>
+            """,
+            unsafe_allow_html=True,
+        )
+        st.subheader("Account Security")
+        st.caption("Create an account and log in. You can optionally save your predictor profile during signup.")
+
+        auth_login_tab, auth_signup_tab = st.tabs(["Login", "Create Account"])
+
+        with auth_login_tab:
+            with st.form("login_form"):
+                login_username = st.text_input("Username", key="login_username").strip()
+                login_password = st.text_input("Password", type="password", key="login_password")
+                login_submit = st.form_submit_button("Login", use_container_width=True)
+
+                if login_submit:
+                    users = load_users()
+                    user_record = users.get(login_username)
+                    if user_record is None:
+                        st.error("Username not found.")
+                    elif not verify_password(login_password, user_record.get("password_hash", "")):
+                        st.error("Invalid password.")
+                    else:
+                        st.session_state["is_authenticated"] = True
+                        st.session_state["current_user"] = login_username
+                        st.success("Login successful.")
+                        st.rerun()
+
+        with auth_signup_tab:
+            profile_ready = (
+                saved_artifacts is not None
+                and "feature_encoders" in saved_artifacts
+                and "label_encoders" in saved_artifacts["feature_encoders"]
+                and "project_binarizer" in saved_artifacts["feature_encoders"]
+            )
+            label_encoders = saved_artifacts["feature_encoders"].get("label_encoders", {}) if profile_ready else {}
+            project_binarizer = saved_artifacts["feature_encoders"].get("project_binarizer") if profile_ready else None
+            create_profile_now = st.checkbox(
+                "Create predictor profile now",
+                value=True,
+                key="signup_create_profile_now",
+            )
+
+            with st.form("signup_form"):
+                signup_username = st.text_input("Username", key="signup_username").strip()
+                signup_password = st.text_input("Password", type="password", key="signup_password")
+                signup_confirm_password = st.text_input("Confirm Password", type="password", key="signup_confirm_password")
+
+                profile_payload = None
+                if create_profile_now:
+                    if not profile_ready:
+                        st.info("Model artifacts are not available yet. You can create an account now and save a profile later in Career Predictor.")
+                    else:
+                        st.markdown("### Profile Information")
+                        left_profile, right_profile = st.columns(2)
+                        with left_profile:
+                            signup_age = st.slider("Age", min_value=16, max_value=30, value=21, key="signup_age")
+                            signup_gpa = st.slider("GPA", min_value=1.0, max_value=4.0, value=3.5, step=0.1, key="signup_gpa")
+                            signup_domain = st.selectbox(
+                                "Interested Domain",
+                                list(label_encoders["Interested Domain"].classes_),
+                                index=None,
+                                placeholder="Type or select a domain",
+                                key="signup_domain",
+                            )
+                        with right_profile:
+                            signup_projects = st.multiselect(
+                                "Projects (select one or more)",
+                                list(project_binarizer.classes_),
+                                key="signup_projects",
+                            )
+                            signup_python = st.selectbox(
+                                "Python",
+                                list(label_encoders["Python"].classes_),
+                                index=None,
+                                placeholder="Select Python skill",
+                                key="signup_python",
+                            )
+                            signup_sql = st.selectbox(
+                                "SQL",
+                                list(label_encoders["SQL"].classes_),
+                                index=None,
+                                placeholder="Select SQL skill",
+                                key="signup_sql",
+                            )
+                            signup_java = st.selectbox(
+                                "Java",
+                                list(label_encoders["Java"].classes_),
+                                index=None,
+                                placeholder="Select Java skill",
+                                key="signup_java",
+                            )
+
+                        profile_missing = []
+                        if signup_domain is None:
+                            profile_missing.append("Interested Domain")
+                        if not signup_projects:
+                            profile_missing.append("Projects")
+                        if signup_python is None:
+                            profile_missing.append("Python")
+                        if signup_sql is None:
+                            profile_missing.append("SQL")
+                        if signup_java is None:
+                            profile_missing.append("Java")
+
+                        if not profile_missing:
+                            profile_payload = build_profile_payload(
+                                age=signup_age,
+                                gpa=signup_gpa,
+                                interested_domain=signup_domain,
+                                projects=signup_projects,
+                                python_skill=signup_python,
+                                sql_skill=signup_sql,
+                                java_skill=signup_java,
+                            )
+
+                signup_submit = st.form_submit_button("Create Account", use_container_width=True)
+
+                if signup_submit:
+                    users = load_users()
+
+                    if len(signup_username) < 3:
+                        st.error("Username must be at least 3 characters.")
+                        return False
+                    if signup_username in users:
+                        st.error("Username already exists.")
+                        return False
+                    if len(signup_password) < 6:
+                        st.error("Password must be at least 6 characters.")
+                        return False
+                    if signup_password != signup_confirm_password:
+                        st.error("Passwords do not match.")
+                        return False
+
+                    if create_profile_now and profile_ready and profile_payload is None:
+                        st.error("Please complete all profile fields before creating your account.")
+                        return False
+
+                    users[signup_username] = {
+                        "password_hash": hash_password(signup_password),
+                        "profile": profile_payload,
+                    }
+                    save_users(users)
+
+                    st.session_state["is_authenticated"] = True
+                    st.session_state["current_user"] = signup_username
+                    st.success("Account created successfully.")
+                    st.rerun()
+
+    return st.session_state.get("is_authenticated", False)
 
 
 @st.cache_data
@@ -454,14 +695,27 @@ def show_prediction_dialog() -> None:
 
 
 def main() -> None:
-    st.title("Career Model Dashboard")
-    st.caption("View training results and predict your future career based on your profile.")
+    init_auth_state()
 
     try:
         df = load_dataset()
     except FileNotFoundError:
         st.error("Dataset file not found. Ensure cs_students.csv exists in the project folder.")
         return
+
+    saved_for_auth = load_saved_artifacts()
+    if not st.session_state["is_authenticated"]:
+        render_auth_ui(saved_for_auth)
+        return
+
+    st.title("Career Model Dashboard")
+    st.caption("View training results and predict your future career based on your profile.")
+
+    st.sidebar.success(f"Logged in as: {st.session_state['current_user']}")
+    if st.sidebar.button("Logout", use_container_width=True):
+        st.session_state["is_authenticated"] = False
+        st.session_state["current_user"] = None
+        st.rerun()
 
     tab1, tab2 = st.tabs(["Training Results", "Career Predictor"])
 
@@ -513,7 +767,7 @@ def main() -> None:
     with tab2:
         st.subheader("Predict Your Career")
 
-        saved = load_saved_artifacts()
+        saved = saved_for_auth
         if saved is None:
             st.warning("Saved model files not found. Use the 'Train and Save Random Forest Model' button in Training Results first.")
             return
@@ -529,40 +783,94 @@ def main() -> None:
         label_encoders = feature_encoders["label_encoders"]
         project_binarizer = feature_encoders["project_binarizer"]
 
+        users = load_users()
+        current_user = st.session_state.get("current_user")
+        user_record = users.get(current_user, {})
+        user_profile = user_record.get("profile") or {}
+        profile_projects = normalize_profile_projects(user_profile.get("Projects"))
+
+        if user_profile:
+            st.caption("Your saved profile was loaded. You can update values and save again anytime.")
+        else:
+            st.caption("No saved profile found. Fill the form and click 'Save Inputs to My Profile' for faster future predictions.")
+
+        domain_options = list(label_encoders["Interested Domain"].classes_)
+        python_options = list(label_encoders["Python"].classes_)
+        sql_options = list(label_encoders["SQL"].classes_)
+        java_options = list(label_encoders["Java"].classes_)
+        project_options = list(project_binarizer.classes_)
+
+        default_age = max(16, min(30, int(user_profile.get("Age", 21))))
+        default_gpa = max(1.0, min(4.0, float(user_profile.get("GPA", 3.5))))
+        default_projects = [p for p in profile_projects if p in project_options]
+
         left, right = st.columns(2)
         with left:
-            age = st.slider("Age", min_value=16, max_value=30, value=21)
-            gpa = st.slider("GPA", min_value=1.0, max_value=4.0, value=3.5, step=0.1)
+            age = st.slider("Age", min_value=16, max_value=30, value=default_age)
+            gpa = st.slider("GPA", min_value=1.0, max_value=4.0, value=default_gpa, step=0.1)
             interested_domain = st.selectbox(
                 "Interested Domain",
-                list(label_encoders["Interested Domain"].classes_),
-                index=None,
+                domain_options,
+                index=selectbox_index(domain_options, user_profile.get("Interested Domain")),
                 placeholder="Type or select a domain",
             )
 
         with right:
             projects = st.multiselect(
                 "Projects (select one or more)",
-                list(project_binarizer.classes_),
+                project_options,
+                default=default_projects,
             )
             python_skill = st.selectbox(
                 "Python",
-                list(label_encoders["Python"].classes_),
-                index=None,
+                python_options,
+                index=selectbox_index(python_options, user_profile.get("Python")),
                 placeholder="Select Python skill",
             )
             sql_skill = st.selectbox(
                 "SQL",
-                list(label_encoders["SQL"].classes_),
-                index=None,
+                sql_options,
+                index=selectbox_index(sql_options, user_profile.get("SQL")),
                 placeholder="Select SQL skill",
             )
             java_skill = st.selectbox(
                 "Java",
-                list(label_encoders["Java"].classes_),
-                index=None,
+                java_options,
+                index=selectbox_index(java_options, user_profile.get("Java")),
                 placeholder="Select Java skill",
             )
+
+        if st.button("Save Inputs to My Profile", use_container_width=True):
+            missing_profile_fields = []
+            if interested_domain is None:
+                missing_profile_fields.append("Interested Domain")
+            if not projects:
+                missing_profile_fields.append("Projects")
+            if python_skill is None:
+                missing_profile_fields.append("Python")
+            if sql_skill is None:
+                missing_profile_fields.append("SQL")
+            if java_skill is None:
+                missing_profile_fields.append("Java")
+
+            if missing_profile_fields:
+                st.warning(f"Please select: {', '.join(missing_profile_fields)}")
+            else:
+                if not current_user or current_user not in users:
+                    st.error("Your account session is out of sync. Please log out and log in again.")
+                    return
+
+                users[current_user]["profile"] = build_profile_payload(
+                    age=age,
+                    gpa=gpa,
+                    interested_domain=interested_domain,
+                    projects=projects,
+                    python_skill=python_skill,
+                    sql_skill=sql_skill,
+                    java_skill=java_skill,
+                )
+                save_users(users)
+                st.success("Profile saved. Your inputs will be pre-filled the next time you log in.")
 
         if st.button("Predict Career", type="primary", use_container_width=True):
             missing_inputs = []
